@@ -1,0 +1,27 @@
+{
+  "ARROW_LIGHT": "/svg/arrow_light.svg"
+,
+  "BACKWARD_LIGHT": "/svg/backward_light.svg"
+,
+  "CAST_LIGHT": "/svg/cast_light.svg"
+,
+  "DOT_MENU_LIGHT": "/svg/dot_menu_light.svg"
+,
+  "FORWARD_LIGHT": "/svg/forward_light.svg"
+,
+  "LOGO": "/svg/logo.svg"
+,
+  "MENU_LIGHT": "/svg/menu_light.svg"
+,
+  "NEXT_LIGHT": "/svg/next_light.svg"
+,
+  "PAUSE": "/svg/pause.svg"
+,
+  "PLAY": "/svg/play.svg"
+,
+  "PREVIOUS_LIGHT": "/svg/previous_light.svg"
+,
+  "SPEED_LIGHT": "/svg/speed_light.svg"
+,
+  "TIMER_LIGHT": "/svg/timer_light.svg"
+}
