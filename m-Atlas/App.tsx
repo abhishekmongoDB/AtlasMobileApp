@@ -1,17 +1,13 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
+// App.js
 import React from 'react';
-import AppUniversalProviderNavigation from './source_files/navigation/AppUniversalProviderNavigation.navigation';
+import { NavigationContainer } from '@react-navigation/native';
+import { NavigationScreen } from './source_files/navigation/NavigationContainer';
 
-function App(): React.JSX.Element {
- 
+function App() {
   return (
-  <AppUniversalProviderNavigation />
+    <NavigationContainer>
+      <NavigationScreen />
+    </NavigationContainer>
   );
 }
 
