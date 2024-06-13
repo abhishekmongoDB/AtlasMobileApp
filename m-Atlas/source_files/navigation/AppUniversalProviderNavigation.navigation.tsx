@@ -13,6 +13,7 @@ import { ToastMessageProvider } from '../context/universal/Toast/ToastMessage.co
 import { AppNavigationProvider } from '../context/universal/Navigation/AppNavigation.context'
 import { ThemeProvider } from '@react-navigation/native'
 import { AsyncStorageProvider } from '../context/universal/AsyncStorage/AsyncStorage.context'
+import AppNavigationContainer from './AppNavigationContainer.navigation'
 
 export default function AppUniversalProviderNavigation() {
     return (
@@ -30,6 +31,7 @@ export default function AppUniversalProviderNavigation() {
                                                     <SpinnerLoader loading={false} />
                                                     <NoInternetBottomSheet />
                                                     <DisableUserInteraction />
+                                                    <AppNavigationContainer />
                                                 </AppUniversalProvider>
                                             </LoaderProvider>
                                         </LocalizationProvider>
