@@ -22,7 +22,6 @@
 #import "NativeMethods.h"
 #import "NativeProxy.h"
 #import "PlatformDepMethodsHolderImpl.h"
-#import "REAInitializer.h"
 #import "REAIOSLogger.h"
 #import "REAIOSUIScheduler.h"
 #import "REAJSIUtils.h"
