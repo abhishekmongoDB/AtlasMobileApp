@@ -2,14 +2,14 @@
 import React from 'react';
 
 import { NavigationContainer } from '@react-navigation/native';
-import AppStackNavigation from './AppStackNavigation.navigation';
+import AppNavigation from '../../AppNavigation';
 
 export default function AppNavigationContainer() {
   
   return (
     <>
       <NavigationContainer>
-        <AppStackNavigation />
+        <AppNavigation />
       </NavigationContainer>
     </>
   );

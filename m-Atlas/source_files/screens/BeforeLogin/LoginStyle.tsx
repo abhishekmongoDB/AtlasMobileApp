@@ -15,7 +15,7 @@ export const loginStyles = StyleSheet.create({
     logo: {
         width: '80%',
         height: 100,
-        marginTop: 50,
+        // marginTop: 50,
         marginBottom: 30
     },
     username: {
@@ -25,7 +25,7 @@ export const loginStyles = StyleSheet.create({
         borderWidth: 1,
         borderRadius: 10,
         paddingHorizontal: 10,
-        marginBottom: 20,
+        // marginBottom: 20,
     },
     password: {
         flexDirection: 'row',

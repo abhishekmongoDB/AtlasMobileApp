@@ -1,16 +1,14 @@
 // App.js
-import React, { useEffect } from "react";
-import { NavigationContainer } from "@react-navigation/native";
-import { NavigationScreen } from "./source_files/navigation/NavigationContainer";
-import { fetchRequest } from "./source_files/api/fetch.Request";
-import { API_ENDPOINTS } from "./source_files/constant/API.constant";
+import React from "react";
+import { GlobalProvider } from "./source_files/context/universal/Global/Global.context";
+import AppNavigation from "./AppNavigation";
 
 function App() {
-  
+  // AppIdSetupScreen
   return (
-    <NavigationContainer>
-      <NavigationScreen />
-    </NavigationContainer>
+    <GlobalProvider>
+      <AppNavigation />
+    </GlobalProvider>
   );
 }
 

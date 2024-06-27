@@ -2,13 +2,13 @@ import React, { useState, useContext, createContext, ReactNode, useEffect } from
 import { Alert } from 'react-native';
 
 interface GlobalContextProps {
-  first: boolean;
-  second: string;
+  appId: string;
+  setUpAppId: (appId: string) => void;
 }
 
 const defaultContext: GlobalContextProps = {
-  first: false,
-  second: "false"
+  appId: "",
+  setUpAppId: () => {},
 };
 
 const GlobalContext = createContext<GlobalContextProps | null>(null);
@@ -18,11 +18,10 @@ interface GlobalProviderProps {
 }
 
 const GlobalProvider = ({ children }: GlobalProviderProps) => {
-  const [first, setFirst] = useState<boolean>(defaultContext.first);
-  const [second, setSecond] = useState<string>(defaultContext.second);
+  const [appId, setUpAppId] = useState<string>(defaultContext.appId);
  
   return (
-    <GlobalContext.Provider value={{ first, second }}>
+    <GlobalContext.Provider value={{ appId, setUpAppId }}>
       {children}
     </GlobalContext.Provider>
   );
