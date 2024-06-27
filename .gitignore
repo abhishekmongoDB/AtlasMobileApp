@@ -21,8 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# ignore pod and android build folders
-/ios/Pods
-/ios/Podfile.lock
-/android/build
+ios/Pods
+node_modules
+package-lock.json

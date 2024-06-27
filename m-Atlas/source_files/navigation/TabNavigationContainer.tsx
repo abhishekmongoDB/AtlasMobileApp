@@ -9,6 +9,7 @@ import Alert from '../screens/AfterLogin/Main/Alert';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Setting from '../screens/AfterLogin/Main/Setting';
 import GifExample from '../screens/AfterLogin/Main/Alert';
+import Project from '../screens/AfterLogin/Main/Project';
 
 const Tab = createBottomTabNavigator();
 
@@ -29,7 +30,7 @@ const MainTabNavigator = () => {
 
       <Tab.Screen
         name="Cluster"
-        component={Cluster}
+        component={Project}
         options={{
           tabBarLabel: 'Cluster',
           tabBarIcon: ({ color, size }) => (
